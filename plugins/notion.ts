@@ -68,11 +68,8 @@ class Notion implements NotionApi {
 
 const notion = new Notion()
 
-const notionPlugin: Plugin = (
-  { app }, // eslint-disable-line @typescript-eslint/no-unused-vars
-  inject: (key: string, value: any) => void
-) => {
+const plugin: Plugin = (_, inject) => {
   inject('notion', notion)
 }
 
-export default { notionPlugin, Notion }
+export default plugin
