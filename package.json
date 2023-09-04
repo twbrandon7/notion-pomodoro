@@ -15,7 +15,7 @@
     "test": "jest"
   },
   "dependencies": {
-    "@notionhq/client": "^2.2.5",
+    "@notionhq/client": "^2.2.13",
     "@nuxtjs/axios": "^5.13.6",
     "@nuxtjs/pwa": "^3.3.5",
     "core-js": "^3.25.3",
